@@ -1,0 +1,37 @@
+a:hover {
+    text-decoration: none; 
+}
+* {
+    box-sizing: border-box;
+}
+ 
+ body {
+
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.main_slider {
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    .main_slider_content {
+        padding: 10px;
+    }
+     .hide-on-small {
+        display: none;
+    }
+    .navbar {
+        background-color: #333;
+    }
+    .nav-item {
+        margin-left: 5px;
+    }
+}
